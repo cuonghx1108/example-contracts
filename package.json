@@ -19,6 +19,12 @@
   "homepage": "https://github.com/cuonghx1108/example-contracts#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.2"
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "hardhat": "^2.11.2",
+    "hardhat-erc1820": "^0.1.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3"
   }
 }
